@@ -1,0 +1,263 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Virtual Labs </title>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <!-- Bootstrap 3.3.6 -->
+        <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!-- Theme style -->
+        <link rel="stylesheet" href="../../dist/css/AdminLTE.css">
+        <!-- AdminLTE Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
+        <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
+        <script>
+            window.onload = function () {
+                document.getElementById("theory").className = "active treeview";
+            }
+        </script>
+    </head>
+
+    <body class="hold-transition skin-blue sidebar-mini">
+        <!--Navigation Bar-->
+<div class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://iitb.ac.in"><span><img src="images/iitb_logo_30dpi.png"></span></a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/">HOME</a>
+        </li>
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/labs/labs.html">LABS</a>
+        </li>
+        <!--<li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/Syllabus_Matrix/syllabus.html">SYLLABUS</a>
+        </li>
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/L1-Form/idea.php">CONTRIBUTE</a>
+        </li>
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/vlab_tool/index.php ">LAB TOOL</a>
+        </li>
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/wiki/doku.php">WIKI</a>
+        </li> -->
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/gitlab/">GITLAB</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+        
+        <div class="wrapper">
+        	<header class="main-header">
+        <!-- Logo -->
+        <a href="../index.html" class="logo">
+        <p align="center" style="font-size:0.8em;"><b>Microwave Engineering</b></p>
+    </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+          <section class="content-header">
+            <ol class="breadcrumb">
+              <li>
+                <a href="../index.html"><i class="fa fa-dashboard"></i>Microwave Engineering</a>
+              </li>
+              <li>
+                <a href="#">To Plot the Radiation Pattern of a Pyramidal Horn Antenna</a>
+              </li>
+              <li class="active">Theory</li>
+            </ol>
+          </section>
+        </nav>
+      </header>
+            
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+          <!-- search form -->
+          <form action="#" method="get" class="sidebar-form">
+            <div class="input-group"></div>
+          </form>
+          <!-- /.sear ch form -->
+          <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu">
+                <li class="treeview" id="aim">
+                    <a href="index.html">
+                        <i class="fa fa-files-o"></i> <span>Aim</span>
+
+                    </a>
+                </li>
+                <li class="treeview" id="theory">
+                    <a href="theory.html" >
+                        <i class="fa fa-files-o"></i>
+                        <span>Theory</span>
+                    </a>
+                </li>
+             <!--   <li class="treeview" id="numerical">
+                    <a href="numerical.php">
+                        <i class="fa fa-laptop"></i>
+                        <span>Numerical</span>
+                        <span class="pull-right-container">
+                        </span>
+                    </a>
+                </li>
+                <li class="treeview" id="program">
+                    <a href="program.php">
+                        <i class="fa fa-laptop"></i>
+                        <span>Program</span>
+                        <span class="pull-right-container">
+                        </span>
+                    </a>
+                </li> -->
+                <li class="treeview" id="pretest">
+                    <a href="pretest.html">
+                        <i class="fa fa-files-o"></i> <span>Pre Test</span>
+
+                    </a>
+                </li>
+                
+                <li class="treeview" id="procedure">
+                    <a href="procedure.html">
+                        <i class="fa fa-files-o"></i> <span>Procedure</span>
+                    </a>
+                </li>
+                <li class="treeview" id="simulation">
+                    <a href="simulation.html">
+                        <i class="fa fa-laptop"></i>
+                        <span>Simulation</span>
+                        <span class="pull-right-container">
+                        </span>
+                    </a>
+                </li>
+
+              
+                
+                <li class="treeview" id="posttest">
+                    <a href=" posttest.html">
+                        <i class=" fa fa-files-o">
+                    </i>
+                    <span>Post Test</span>
+                    <span class="pull-right-container">
+                    </span>
+                    </a>
+                </li>
+                <li class="treeview" id="ref">
+                    <a href="references.html">
+                        <i class="fa fa-files-o"></i>
+                        <span>References</span>
+                        <span class="pull-right-container">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+   
+            <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+                <section class="content-header">
+                <h1 align="center">
+                  To Plot the Radiation Pattern of a Pyramidal Horn Antenna<!-- Write experiment name here --> 
+                </h1>
+                </section>
+                    <!-- Main content -->
+                    <section class="content">
+                    <h3 style="margin-top:5%"> Theory </h3>
+                    <h2>Horn Antenna</h2>
+                    <p style="font-size:130%; margin-top:2%">
+                      
+                      The horn antenna has a distinctive shape and is unlike many other forms of antenna and is used at microwave frequencies.
+
+                      The horn antenna can be considered to be a waveguide that has been widened out in the form of a horn. 
+<br>
+<p ><h2>Basic Horn Antenna Concept</h2> 
+  <p style="font-size:130%; margin-top:2%">
+    The horn antenna may be considered as an RF transformer or impedance match between the waveguide feeder and free space which has an impedance of 377 ohms.By having a tapered or having a flared end to the waveguide the horn antenna is formed and this enables the impedance to be matched. Although the waveguide will radiate without a horn antenna, this provides a far more efficient match. 
+  </p>
+  <br>
+  <br>
+
+<div  style="width: 500px; height: 330px; margin: auto;">
+  <img src="images/horn (1).png" style="max-width: 100%;max-height: 100%; ">
+  <p style="margin-left:20px;"><h2>Pyramidal Horn Antenna</h2> 
+</div> <br>
+  <br>
+  <p style="font-size:130%; margin-top:2%">
+    In addition to the improved match provided by the horn antenna, it also helps suppress signals travelling via unwanted modes in the waveguide from being radiated.
+
+    However the main advantage of the horn antenna is that it provides a significant level of directivity and gain. 
+    
+    the pyramid horn antenna takes on a rectangular shape - the cross section through the antenna is rectangular, as is the end of the antenna. It is normally used with rectangular waveguide.
+     
+  </p>
+  
+<p ><h2>Radiation Pattern of Horn Antenna</h2> 
+<p style="font-size:130%; margin-top:2%">
+  The radiation pattern is a graphical representation of the strength of radiation of an antenna as a function of direction. The strength of radiation is usually measured in terms of field strength although sometimes radiation intensity (power radiated per unit solid angle) is also used. For the purpose of radiation pattern, one considers the given antenna to be located at the origin of a spherical polar coordinates systems (r,θ,φ) and the variation in the field strength at different points on an imaginary concentric spherical surface of radius r is noted. For sufficiently larger r, as explained later on, the field variation or the pattern is independent or r and also the fields are tangential to the hypothetical spherical surface. In general, separate patterns are plotted for θ and φ polarization.
+
+  The radiation pattern of typical microwave antennas consists of a main lobe and a few minor or side-lobes. Beam-width of an antenna is defined as the angular separation between 3 dB points with respect to the maximum field strength. Side lobes represent a loss and leakage of information in the transmit mode. In the receive mode, sidelobes may cause an uncertainty in determining the angle of arrival of a signal. However, sidelobes are very sensitive to the surroundings in which the radiation pattern is measured. 
+</p>
+
+                     
+                      
+                      <h3 style="margin-top:5%"> Block Diagram </h3>
+                      <ul>
+                        <li style=" margin-top:1%">
+                    <h3  style="font-size: 120%;"> <B> For Transmitting Voltage: </B> </h3>
+                      <div  style="width: 480px; height: 300px; margin: auto;">
+                        <img src="images/block1.png" style="max-width: 100%;max-height: 100%; ">
+                      </div> 
+                    </li>
+                    <li style=" margin-top:1%">
+                      <h3  style="font-size: 120%;"> <B> For Calculating Gain to Plot Radiation Pattern </B> </h3>
+                        <div  style="width: 480px; height: 300px; margin: auto;">
+                          <img src="images/horn (2).png" style="max-width: 100%;max-height: 100%; ">
+                        </div> 
+                      </li>
+                      
+                    </ul>
+                    <!--Theory of experiment -->
+                    </p>
+                </section>
+            <!-- /.content -->
+            </div>
+            <footer class="main-footer">
+                <h4 align="center">Lab contributed by M.J.P Rohilkhand University <!-- Institute Name --> </h4>
+            </footer>
+        </div>
+        
+    </body>
+</html>
+
+<!-- ./wrapper -->
+<!-- jQuery 2.2.3 -->
+<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="../../bootstrap/js/bootstrap.min.js"></script>
+<!-- Slimscroll -->
+<script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="../../plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/app.min.js"></script>

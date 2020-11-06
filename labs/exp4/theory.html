@@ -1,0 +1,375 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Virtual Labs </title>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <!-- Bootstrap 3.3.6 -->
+        <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!-- Theme style -->
+        <link rel="stylesheet" href="../../dist/css/AdminLTE.css">
+        <!-- AdminLTE Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
+        <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
+        <script>
+            window.onload = function () {
+                document.getElementById("theory").className = "active treeview";
+            }
+        </script>
+    </head>
+
+    <body class="hold-transition skin-blue sidebar-mini">
+        <!--Navigation Bar-->
+<div class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://iitb.ac.in"><span><img src="images/iitb_logo_30dpi.png"></span></a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/">HOME</a>
+        </li>
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/labs/labs.html">LABS</a>
+        </li>
+        <!--<li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/Syllabus_Matrix/syllabus.html">SYLLABUS</a>
+        </li>
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/L1-Form/idea.php">CONTRIBUTE</a>
+        </li>
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/vlab_tool/index.php ">LAB TOOL</a>
+        </li>
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/vlabs-dev/wiki/doku.php">WIKI</a>
+        </li> -->
+        <li class="active">
+          <a href="http://vlabs.iitb.ac.in/gitlab/">GITLAB</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+        
+        <div class="wrapper">
+        	<header class="main-header">
+        <!-- Logo -->
+        <a href="../index.html" class="logo">
+        <p align="center" style="font-size:0.8em;"><b>Microwave Engineering</b></p>
+    </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+          <section class="content-header">
+            <ol class="breadcrumb">
+              <li>
+                <a href="../index.html"><i class="fa fa-dashboard"></i>Microwave Engineering</a>
+              </li>
+              <li>
+                <a href="#">Basic Properties of E-plane Tee, H-plane Tee and Magic Tee</a>
+              </li>
+              <li class="active">Theory</li>
+            </ol>
+          </section>
+        </nav>
+      </header>
+            
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+          <!-- search form -->
+          <form action="#" method="get" class="sidebar-form">
+            <div class="input-group"></div>
+          </form>
+          <!-- /.sear ch form -->
+          <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu">
+                <li class="treeview" id="aim">
+                    <a href="index.html">
+                        <i class="fa fa-files-o"></i> <span>Aim</span>
+
+                    </a>
+                </li>
+                <li class="treeview" id="theory">
+                    <a href="theory.html" >
+                        <i class="fa fa-files-o"></i>
+                        <span>Theory</span>
+                    </a>
+                </li>
+             <!--   <li class="treeview" id="numerical">
+                    <a href="numerical.php">
+                        <i class="fa fa-laptop"></i>
+                        <span>Numerical</span>
+                        <span class="pull-right-container">
+                        </span>
+                    </a>
+                </li>
+                <li class="treeview" id="program">
+                    <a href="program.php">
+                        <i class="fa fa-laptop"></i>
+                        <span>Program</span>
+                        <span class="pull-right-container">
+                        </span>
+                    </a>
+                </li> -->
+                <li class="treeview" id="pretest">
+                    <a href="pretest.html">
+                        <i class="fa fa-files-o"></i> <span>Pre Test</span>
+
+                    </a>
+                </li>
+                
+                <li class="treeview" id="procedure">
+                    <a href="procedure.html">
+                        <i class="fa fa-files-o"></i> <span>Procedure</span>
+                    </a>
+                </li>
+                <li class="treeview" id="simulation">
+                    <a href="simulation.html">
+                        <i class="fa fa-laptop"></i>
+                        <span>Simulation</span>
+                        <span class="pull-right-container">
+                        </span>
+                    </a>
+                </li>
+
+              
+                
+                <li class="treeview" id="posttest">
+                    <a href=" posttest.html">
+                        <i class=" fa fa-files-o">
+                    </i>
+                    <span>Post Test</span>
+                    <span class="pull-right-container">
+                    </span>
+                    </a>
+                </li>
+                <li class="treeview" id="ref">
+                    <a href="references.html">
+                        <i class="fa fa-files-o"></i>
+                        <span>References</span>
+                        <span class="pull-right-container">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+   
+            <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+                <section class="content-header">
+                <h1 align="center">
+                  Basic Properties of E-plane Tee, H-plane Tee and Magic Tee <!-- Write experiment name here --> 
+                </h1>
+                </section>
+                    <!-- Main content -->
+                    <section class="content">
+                    <h3 style="margin-top:5%"> Theory </h3>
+                    <h2>E-Plane Tee</h2>
+                    <p style="font-size:130%; margin-top:2%">
+                      
+                      An E-plane tee is a waveguide tee in which the axis of its side arm is parallel to the E field of the main guide (see Fig.). If the collinear arms are symmetric about the side arm, there are two different transmission characteristics. It can be seen from Fig. that if the E - plane tee is perfectly matched with the aid of screw tuners or inductive or capacitive windows at the junction, the diagonal components of the scattering matrix, S11,S22,andS33, are zero because there will be no reflection. When the waves are fed into the side arm (port 3), the waves appearing at port 1 and port 2 of the collinear arm will be in opposite phase and in the same magnitude. Therefore
+<br>
+<p style="margin-left: 450px;"> <b>S13=−S23</b>
+  <p style="font-size:130%; margin-top:2%">
+    It should be noted that above Eq. does not mean that S13 is always positive and S23 is always negative. The negative sign merely means that SB and S23 have opposite signs. 
+  </p>
+  <br>
+  <br>
+
+<div  style="width: 500px; height: 330px; margin: auto;">
+  <img src="images/PIC1.png" style="max-width: 100%;max-height: 100%; ">
+</div><br>
+  <br>
+<div  style="width: 500px; height: 330px; margin: auto;">
+  <img src="images/PIC2.png" style="max-width: 100%;max-height: 100%; ">
+</div>
+<h2>H-Plane Tee</h2>
+<p style="font-size:130%; margin-top:2%">
+ 
+  When the axis of the side arm of the waveguide tee is parallel to the flow of the Magnetic Field (H) from port 1 and is perpendicular to the flow of the Electric Field (E), then the tee is called a H-Plane Waveguide Tee.
+<br>
+
+
+
+
+<div  style="width: 500px; height: 330px; margin: auto;">
+<img src="images/pic3.png" style="max-width: 100%;max-height: 100%; ">
+</div>
+
+<p style="font-size:130%; margin-top:1%">
+  An H-Plane Waveguide Tees can be thought of as a two way in-phase power divider/combiner i.e it is additive in nature. When two input signals are fed to port 1 & 2, the output at port 3 is in phase and additive and when the input signal is fed to port 3, the signal is split in to two equal parts that are in-phase at port 1 & 2. 
+</p>
+
+</p>
+<br>
+<br>
+<h2>Magic Tee</h2>
+<p style="font-size:130%; margin-top:2%">
+  A Magic Tee or Hybrid Tee is a 4 port waveguide tee that is a combination of an E-Plane and H-Plane Waveguide Tee.
+  
+ 
+<br>
+
+
+
+<br>
+
+<div  style="width: 500px; height: 330px; margin: auto;">
+<img src="images/pic4.png" style="max-width: 100%;max-height: 100%; ">
+</div><br>
+<br>
+<p style="font-size:130%; margin-top:2%">
+  A magic tee has four ports:
+ <ul style="font-size:130%;">
+   <li>
+    Port 1 - Co-linear
+   </li>
+   <li>
+    Port 2 - Co-linear
+   </li>
+   <li>
+    Port 3 - Difference Port
+   </li>
+   <li>
+    Port 4 - Sum Port
+   </li>
+ </ul>
+  </p>
+  <p style="font-size:130%; margin-top:2%">
+    Operation of a Magic Tee:
+   <ul style="font-size:130%;">
+     <li>
+      Case 1: When two signals of equal magnitude are fed from port 1 and 2, we get a zero at port 3 and the sum of the two signals at port 4.
+     </li>
+     <li>
+      Case 2: When a signal is fed through port 4, it gets divided equally between port 1 & 2 and both the outputs are in phase. No output comes from port 3.
+     </li>
+     <li>
+      Case 3: When a signal is fed through port 3, we get an output of equal magnitude but opposite phase at port 1 & 2 (the signals are 180 degrees out of phase). Output at port 4 is zero.
+     </li>
+    
+   </ul>
+    </p>
+    <p style="font-size:130%; margin-top:2%">
+      A magic tee is ideally lossless. But the biggest disadvantage of magic tee is that reflections arise within it due to impedance mismatches, which causes some level of power loss. These reflections can be minimized by optimizing matching.
+      
+     
+    <br>
+    
+    
+</p>
+                     
+                      
+                      <h3 style="margin-top:5%"> Block Diagram </h3>
+                      <ul>
+                        <li style=" margin-top:1%">
+                    <h3  style="font-size: 120%;"> <B> For Output Voltage: </B> </h3>
+                      <div  style="width: 480px; height: 300px; margin: auto;">
+                        <img src="images/block1.png" style="max-width: 100%;max-height: 100%; ">
+                      </div> 
+                    </li>
+                    <li style=" margin-top:1%">
+                      <h3  style="font-size: 120%;"> <B> For output at port 1 of E-plane Tee: </B> </h3>
+                        <div  style="width: 480px; height: 300px; margin: auto;">
+                          <img src="images/BLOCK2.png" style="max-width: 100%;max-height: 100%; ">
+                        </div> 
+                      </li>
+                      <li style=" margin-top:1%">
+                        <h3  style="font-size: 120%;"> <B> For output at port 2 of E-plane Tee: </B> </h3>
+                          <div  style="width: 480px; height: 300px; margin: auto;">
+                            <img src="images/block3.png" style="max-width: 100%;max-height: 100%; ">
+                          </div> 
+                        </li>
+                        <li style=" margin-top:1%">
+                          <h3  style="font-size: 120%;"> <B>For output at port 1 of H-plane Tee: </B> </h3>
+                            <div  style="width: 480px; height: 300px; margin: auto;">
+                              <img src="images/block4.png" style="max-width: 100%;max-height: 100%; ">
+                            </div> 
+                          </li>
+                          <li style=" margin-top:1%">
+                            <h3  style="font-size: 120%;"> <B>For output at port 2 of H-plane Tee:</B> </h3>
+                              <div  style="width: 480px; height: 300px; margin: auto;">
+                                <img src="images/block5.png" style="max-width: 100%;max-height: 100%; ">
+                              </div> 
+                            </li>
+                            <li style=" margin-top:1%">
+                              <h3  style="font-size: 120%;"> <B> For output at port 1 of Magic Tee when input is at port 4: </B> </h3>
+                                <div  style="width: 480px; height: 300px; margin: auto;">
+                                  <img src="images/block6.png" style="max-width: 100%;max-height: 100%; ">
+                                </div> 
+                              </li>
+                              <li style=" margin-top:1%">
+                                <h3  style="font-size: 120%;"> <B> For output at port 2 of Magic Tee when input is at port 4: </B> </h3>
+                                  <div  style="width: 480px; height: 300px; margin: auto;">
+                                    <img src="images/block7.png" style="max-width: 100%;max-height: 100%; ">
+                                  </div> 
+                                </li>
+                                <li style=" margin-top:1%">
+                                  <h3  style="font-size: 120%;"> <B> For output at port 3 of Magic Tee when input is at port 4: </B> </h3>
+                                    <div  style="width: 480px; height: 300px; margin: auto;">
+                                      <img src="images/block8.png" style="max-width: 100%;max-height: 100%; ">
+                                    </div> 
+                                  </li>
+                                  <li style=" margin-top:1%">
+                                    <h3  style="font-size: 120%;"> <B> For output at port 1 of Magic Tee when input is at port 3: </B> </h3>
+                                      <div  style="width: 480px; height: 300px; margin: auto;">
+                                        <img src="images/block9.png" style="max-width: 100%;max-height: 100%; ">
+                                      </div> 
+                                    </li>
+                                    <li style=" margin-top:1%">
+                                      <h3  style="font-size: 120%;"> <B> For output at port 2 of Magic Tee when input is at port 3: </B> </h3>
+                                        <div  style="width: 480px; height: 300px; margin: auto;">
+                                          <img src="images/block10.png" style="max-width: 100%;max-height: 100%; ">
+                                        </div> 
+                                      </li>
+                                      <li style=" margin-top:1%">
+                                        <h3  style="font-size: 120%;"> <B> For output at port 4 of Magic Tee when input is at port 3: </B> </h3>
+                                          <div  style="width: 480px; height: 300px; margin: auto;">
+                                            <img src="images/block11.png" style="max-width: 100%;max-height: 100%; ">
+                                          </div> 
+                                        </li>
+                    </ul>
+                    <!--Theory of experiment -->
+                    </p>
+                </section>
+            <!-- /.content -->
+            </div>
+            <footer class="main-footer">
+                <h4 align="center">Lab contributed by M.J.P Rohilkhand University <!-- Institute Name --> </h4>
+            </footer>
+        </div>
+        
+    </body>
+</html>
+
+<!-- ./wrapper -->
+<!-- jQuery 2.2.3 -->
+<script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="../../bootstrap/js/bootstrap.min.js"></script>
+<!-- Slimscroll -->
+<script src="../../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="../../plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/app.min.js"></script>
